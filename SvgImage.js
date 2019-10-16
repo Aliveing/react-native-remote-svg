@@ -5,6 +5,7 @@ import { View, StyleSheet } from 'react-native';
 import { WebView } from 'react-native-webview';
 const getHTML = (svgContent, style) => `
 <html data-key="key-${style.height}-${style.width}">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   <head>
     <style>
       html, body {
