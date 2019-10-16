@@ -3,7 +3,6 @@
 import React, { Component } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { WebView } from 'react-native-webview';
-
 const getHTML = (svgContent, style) => `
 <html data-key="key-${style.height}-${style.width}">
   <head>
